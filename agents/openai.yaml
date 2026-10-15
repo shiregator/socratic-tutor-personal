@@ -1,0 +1,14 @@
+interface:
+  display_name: Socratic Tutor — Personal
+  short_description: Guided learning with encouragement to keep going
+  default_prompt: Use $socratic-tutor-personal to guide me through a problem, one
+    question at a time.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
